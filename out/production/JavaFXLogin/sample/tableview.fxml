@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TableViewController">
+   <children>
+      <TableView fx:id="tableView" layoutX="5.0" layoutY="20.0" prefHeight="296.0" prefWidth="436.0" />
+      <Button fx:id="viewButton" layoutX="18.0" layoutY="322.0" mnemonicParsing="false" onAction="#viewInfo" text="View" />
+      <Button layoutX="18.0" layoutY="359.0" mnemonicParsing="false" onAction="#sellPlayer" text="Sell" />
+      <Button layoutX="576.0" layoutY="384.0" mnemonicParsing="false" onAction="#logOut" text="Logout" />
+      <VBox layoutX="452.0" layoutY="14.0" prefHeight="253.0" prefWidth="171.0">
+         <children>
+            <Label text="Search Options" />
+            <Button mnemonicParsing="false" onAction="#searchPlayer" text="Player Name" />
+            <Button mnemonicParsing="false" onAction="#searchCountry" text="By Country" />
+            <Button mnemonicParsing="false" onAction="#searchPosition" text="Position" />
+            <Button mnemonicParsing="false" onAction="#searchRange" text="Salary Range" />
+            <Button mnemonicParsing="false" onAction="#searchCountryCount" prefHeight="25.0" prefWidth="167.0" text="Country-wise Player Count" />
+            <Button mnemonicParsing="false" onAction="#searchMaxSalary" text="Max-Salary" />
+            <Button mnemonicParsing="false" onAction="#searchMaxAge" text="Max-Age" />
+            <Button mnemonicParsing="false" onAction="#searchMaxHeight" text="Max-Height" />
+            <Button mnemonicParsing="false" onAction="#showYearlySalary" text="Yearly Salary" />
+         </children>
+      </VBox>
+      <Button layoutX="13.0" layoutY="395.0" mnemonicParsing="false" onAction="#showMarket" text="Market" />
+   </children>
+</AnchorPane>
