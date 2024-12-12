@@ -1,6 +1,7 @@
 Simple footballer database where you can search players under different constraints and buy and sell players between clubs.
 
-TODO:add video demonstration 
+#video demo:
+https://drive.google.com/file/d/1-6lP4M2TgAAbe9j0f-GsYBkCB6YiYD3z/view?usp=sharing
 
 note : run in intellij
 use java version 11.0.13
