@@ -3,7 +3,7 @@ The Football Player Database System is a Java-based application for managing foo
 # video demo:
 https://drive.google.com/file/d/1-6lP4M2TgAAbe9j0f-GsYBkCB6YiYD3z/view?usp=sharing
 
-note : run in intellij
+how to run: run in intellij
 use java version 11.0.13
 and javafx-sdk-11.0.2
 (press ctrl+shift+alt+S to change modules
